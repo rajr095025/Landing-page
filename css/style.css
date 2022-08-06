@@ -7,11 +7,16 @@
 
 .header {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 550px;
     align-items: flex-start;
     margin-bottom: 50px;
 
     
+}
+
+.header-left {
+    font-weight: bold;
 }
 
 ul {
@@ -35,14 +40,19 @@ a {
 .section1bottom {
     display: flex;
     justify-content: center;
-    gap: 60px;
+    column-gap: 50px;
     margin-bottom: 70px;
+    margin-left: 60px;
+    margin-right: 60px;
+
+    
 
 
 }
 
 .section1left {
-    width: 330px;
+    width: 500px;
+    
 
 }
 .section1bottom .text {
@@ -54,7 +64,7 @@ a {
 .section1right{
     background-color: gray;
     display: flex;
-    width: 250px;
+    width: 350px;
     justify-content: center;
     align-items: center;
     padding: 75px;
@@ -78,7 +88,6 @@ a {
 <!-- section2 --->
 
 .section2 {
-    display: flex;
     margin-bottom: 50px;
     
 }
@@ -96,22 +105,20 @@ a {
 .section2 .boxes {
     height: 300px;
     width: 50px;
+    margin-left: 400px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    margin-left: 180px;
     margin-bottom: 50px;
     flex-wrap: wrap;
-    column-gap: 50px;
-    align-content: space;
-    text-align: center;
+    column-gap: 100px;
+    align-items: 
     
 
 }
 
 .boxes .box {
     border: 2px solid blue;
-    padding: 70px;
+    padding: 90px;
     border-radius: 10%;
     margin-bottom: 8px;
 }
@@ -144,7 +151,7 @@ a {
 .section3 .content .text2 {
     align-self: flex-end;
     font-weight: bold;
-    margin-right: 180px;
+    margin-right: 550px;
     margin-bottom: 80px;
     font-size: 20px;
 
@@ -156,10 +163,15 @@ a {
     justify-content: center;
     align-items: center;
     gap: 120px;
-    margin: 80px 150px;
+    margin: 80px 400px;
     padding: 50px 0px;
     border-radius: 5px;
     color:#f9faf8;
+}
+
+.section4 .content {
+    
+
 }
 
 .cta {
