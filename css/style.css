@@ -44,10 +44,6 @@ a {
     margin-bottom: 70px;
     margin-left: 60px;
     margin-right: 60px;
-
-    
-
-
 }
 
 .section1left {
@@ -81,42 +77,32 @@ a {
 }
 
 
-\*{
-    border: 1px solid;
-}
-
-<!-- section2 --->
-
-.section2 {
-    margin-bottom: 50px;
-    
-}
-
-.section2 .text{
+.section2{
     display: flex;
+    margin: 10px;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 20px;
+    gap: 20px;
+}
+
+.section2 > .text{
     font-size: 36px;
     color: #1F2937;
     font-weight: bold;
 }
 
-.section2 .boxes {
-    height: 300px;
-    width: 50px;
-    margin-left: 400px;
+.boxes {
     display: flex;
-    flex-direction: column;
-    margin-bottom: 50px;
-    flex-wrap: wrap;
-    column-gap: 100px;
-    align-items: 
-    
-
+    justify-content: center;
+    gap: 20px;
 }
 
-.boxes .box {
+.boxes > div {
+    width: 200px;
+}
+
+.box {
     border: 2px solid blue;
     padding: 90px;
     border-radius: 10%;
@@ -127,62 +113,74 @@ a {
 
 .section3 {
     background-color: #e5e7eb;
-    
-
-}
-
-.section3 .content {
+    padding: 50px;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     
+    
+
 }
 
-.section3 .content .text1 {
-    margin: 100px;
-    margin-bottom: 0%;
+
+.section3>.text1 {
+    display: flex;
+    flex-direction: column;
     font-size: 36px;
-    align-self: center;
+    align-items: center;
     font-style: italic;
+    width: fit-content ;
 
 
 }
 
-.section3 .content .text2 {
+.text1>.text2 {   
+    display: flex;
     align-self: flex-end;
     font-weight: bold;
-    margin-right: 550px;
-    margin-bottom: 80px;
     font-size: 20px;
 
 }
 
-.section4 {
-    background-color: #3882f6;
+.left {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 120px;
+}  
+
+.section4 {
+    background-color: #3882f6;
+    
     margin: 80px 400px;
     padding: 50px 0px;
     border-radius: 5px;
     color:#f9faf8;
+    width: fit-content;
+
 }
 
-.section4 .content {
+.section4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 300px;
     
-
 }
+
+
 
 .cta {
     font-size: 20px;
     font-weight: bold;
+    
+
 }
 
 .section4button {
     background-color: #3882f6;
     color: #f9faf8;
     padding: 5px 25px;
+    width: fit-content;
     border: 1px solid;
     border-radius: 5px;
     border-color: #f9faf8;
