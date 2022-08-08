@@ -57,13 +57,12 @@ a {
     color: #f9faf8;
 }
 
-.section1right{
-    background-color: gray;
+.section1right > .logo{
     display: flex;
-    width: 350px;
     justify-content: center;
     align-items: center;
-    padding: 75px;
+    width: 450px;
+
 }
 
 .section1left button {
@@ -79,11 +78,11 @@ a {
 
 .section2{
     display: flex;
-    margin: 10px;
+    margin: 20px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 30px;
 }
 
 .section2 > .text{
@@ -95,12 +94,33 @@ a {
 .boxes {
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 150px;
 }
 
 .boxes > div {
-    width: 200px;
+    text-align: center;
 }
+
+.boxes > .box1  > .box{
+    background-size: cover;
+    background-image: url(../images/gears.jpeg);
+}
+
+.boxes > .box2  > .box{
+    background-size: cover;
+    background-image: url(../images/IT.jpg);
+}
+
+.boxes > .box3  > .box{
+    background-size: cover;
+    background-image: url(../images/Finance.jpg);
+}
+
+.boxes > .box4  > .box{
+    background-size: cover;
+    background-image: url(../images/hotel.jpg);
+}
+
 
 .box {
     border: 2px solid blue;
@@ -141,40 +161,32 @@ a {
 
 }
 
-.left {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}  
 
 .section4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px ;
+}
+
+
+.section4 > .content {
     background-color: #3882f6;
-    
-    margin: 80px 400px;
-    padding: 50px 0px;
+    padding: 50px 100px;
     border-radius: 5px;
     color:#f9faf8;
     width: fit-content;
-    height: fit-content;
-
-}
-
-.section4 {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 200px;
-    
+    gap: 150px;
+
+
 }
-
-
 
 .cta {
     font-size: 20px;
     font-weight: bold;
-    
-
 }
 
 .section4button {
